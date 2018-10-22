@@ -85,25 +85,27 @@
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="card card-raised card-form-horizontal card-plain" data-background-color="">
                   <div class="card-body">
-                    <form method="" action="">
+                    <form method="POST" action="https://formspree.io/pjujun123@hotmail.com">
                       <div class="row">
                         <div class="col-md-3">
                           <div class="form-group">
-                            <input type="text" value="" placeholder="全名" class="form-control form-control-lg" autocomplete="family-name">
+                            <input type="text" name="name" value="" placeholder="全名" class="form-control form-control-lg">
+                            <input type="hidden" name="_subject" value="[H.E.R.O. Retreat] New Potential Sign Up!" />
+                            <input type="hidden" name="_cc" value="newtonlaw18@gmail.com,wenwen0829@gmail.com, shman.lau@gmail.com" />
                           </div>
                         </div>
                         <div class="col-md-3">
                           <div class="form-group">
-                            <input type="email" placeholder="电子邮件" class="form-control form-control-lg" autocomplete="email">
+                            <input type="email" name="email" placeholder="电子邮件" class="form-control form-control-lg" autocomplete="email">
                           </div>
                         </div>
                         <div class="col-md-3">
                           <div class="form-group">
-                            <input type="password" placeholder="电话号码" class="form-control form-control-lg" autocomplete="current-password">
+                            <input type="text" name="phone" placeholder="电话号码" class="form-control form-control-lg">
                           </div>
                         </div>
                         <div class="col-md-3">
-                          <button type="button" class="btn btn-info btn-block">报名!</button>
+                          <button type="submit" class="btn btn-info btn-block">报名!</button>
                         </div>
                       </div>
                     </form>
@@ -574,7 +576,7 @@
             </div>
             <div class="col-md-5 ml-auto mr-auto">
               <div class="card card-contact card-raised">
-                <form role="form" id="contact-form1" method="post">
+                <form method="POST" action="https://formspree.io/pjujun123@hotmail.com">
                   <div class="card-header text-center">
                     <h4 class="card-title">联系表格</h4>
                   </div>
@@ -586,7 +588,9 @@
                           <div class="input-group-prepend">
                             <span class="input-group-text"><i class="now-ui-icons users_circle-08"></i></span>
                           </div>
-                          <input type="text" class="form-control" placeholder="名字" aria-label="First Name..." autocomplete="given-name">
+                          <input type="text" name="name" class="form-control" placeholder="名字" aria-label="First Name..." autocomplete="given-name">
+                          <input type="hidden" name="_subject" value="[H.E.R.O. Retreat] Contact Us Form" />
+                          <input type="hidden" name="_cc" value="newtonlaw18@gmail.com,wenwen0829@gmail.com, shman.lau@gmail.com" />
                         </div>
                       </div>
                     </div>
@@ -596,12 +600,12 @@
                         <div class="input-group-prepend">
                           <span class="input-group-text"><i class="now-ui-icons ui-1_email-85"></i></span>
                         </div>
-                        <input type="email" class="form-control" placeholder="电子邮件" autocomplete="email">
+                        <input type="email" name="email" class="form-control" placeholder="电子邮件" autocomplete="email">
                       </div>
                     </div>
                     <div class="form-group">
                       <label>信息</label>
-                      <textarea name="message" class="form-control" id="message" rows="6"></textarea>
+                      <textarea name="message" name="message" class="form-control" id="message" rows="6"></textarea>
                     </div>
                     <div class="row">
                       <div class="col-md-6">
